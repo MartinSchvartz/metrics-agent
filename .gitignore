@@ -1,0 +1,18 @@
+# Go
+/bin/
+*.test
+coverage.out
+
+# Web
+node_modules/
+web/dist/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+
+# Eval output
+evals/results/
+
+.DS_Store
